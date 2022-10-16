@@ -1,0 +1,29 @@
+.order__btn {
+  margin: 15px auto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: #4bcfa0;
+  border: 0;
+  border-radius: 16px;
+  width: 288px;
+  height: 56px;
+  position: relative;
+}
+
+.order__btn > span {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: none;
+  top: 31%;
+  right: 30%;
+  background-image: url(./img/arrow-right.svg);
+}
+
+.order__btn:hover > span {
+  display: block;
+}
